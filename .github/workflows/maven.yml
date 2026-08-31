@@ -39,6 +39,7 @@ jobs:
         path: report.html
 
     - name: Test Execution status
+      if: always()
       run: echo "Test Exexution Completed"
 
     
